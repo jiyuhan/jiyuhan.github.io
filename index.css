@@ -218,5 +218,8 @@
 .fluid-container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 1fr 100px;
   align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
